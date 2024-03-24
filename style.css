@@ -1,0 +1,121 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+  .shoesContainer1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+  }
+  .shoesContainer1names {
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  .sportH {
+    display: flex;
+    justify-content: center;
+}
+
+
+.sportContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 1vh;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 1vh;
+    flex-direction: row;
+    
+}
+
+.runButton {
+
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    width: 200px;
+    height: 50px;
+}
+
+.runButton a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.runButton2 {
+
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    width: 200px;
+    height: 50px;
+}
+
+.runButton2 a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.button-overlay {
+    position: relative;
+    display: inline-block;
+}
+.button-overlay button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-overlay button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+.button-overlay2 {
+    position: relative;
+    display: inline-block;
+}
+.button-overlay2 button {
+    position:inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.button-overlay2 button:hover {
+    background-color: white;
+    color: black;
+}
